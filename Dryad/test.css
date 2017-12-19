@@ -1,0 +1,180 @@
+.content1 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: #1D6E51;
+  border-radius: 30px;
+  text-align:right;
+  margin-left:600px;
+
+}
+
+body{
+ background-color:#008373;
+   background-image: url(Dryad-Abstracts-04.svg), none;
+   background-attachment:scroll;
+   background-position:right;
+
+}
+
+.header{
+height: 300px;
+background-color: #297B48;
+position: relative;
+  border-bottom-left-radius: 50% 20%;
+ border-bottom-right-radius: 50% 20%;
+ border-top-left-radius:5% 5%;
+ border-top-right-radius:5% 5%;
+ padding-top:30px;
+ padding-bottom:40px;
+ margin-top:30px;
+ font-weight:lighter;
+}
+
+
+#containter{
+  position: absolute;
+  padding-bottom:13px;
+   left: 0;
+
+}
+
+#About{
+   list-style-position: inside;
+   padding-bottom: 14px;
+   color:#2BB673;
+   height:12px;
+   width:130px;
+   font-size:30px;
+   font-weight: bold;
+
+}
+
+.rect1{
+  border-radius: 15px 50px 30px 5px;
+     background: #01433F;
+     padding: 20px;
+     width: 150px;
+     height: 40px;
+    text-align:justify;
+    margin-top: 40px;
+    margin-left: 560px;
+        -webkit-transition-timing-function: ease;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+
+
+
+}
+
+
+
+
+
+
+
+.DryadBackground{
+  margin-top:30px;
+  margin-left:40px;
+}
+
+
+
+
+.vl {
+    border-left: 6px solid #669933;
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:30px;
+}
+
+.vl2 {
+    border-left: 6px solid #669933;
+    height: 2000px;
+    position: absolute;
+    left: 40%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:30px;
+
+}
+
+.vl3 {
+    border-left: 6px solid #669933;
+    height: 2000px;
+    position: absolute;
+    left: 45%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:30px;
+
+}
+
+.vl4 {
+    border-left: 6px solid #669933;
+    height: 2000px;
+    position: absolute;
+    left: 35%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:30px;
+}
+
+
+
+p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1{
+  color:#B9FC4F;
+  text-align:center;
+  font-family:Arial;
+  font-style:normal;
+  letter-spacing:5px;
+  font-size: 60px;
+
+}
+
+ul{
+
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+
+}
+
+button{
+      list-style-position: inside;
+      height:5px;
+      border-radius: 30px 50px 15px 50px;
+      background-color: #01433F; /* Green */
+      border: none;
+      color: #2BB673;
+      text-align: center;
+      text-decoration: none;
+      display: inline;
+      font-size: 34px;
+      font-weight: bold;
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+button:hover{
+    color: #B9FC4F;
+}

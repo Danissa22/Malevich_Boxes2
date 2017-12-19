@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Level 2</title>
+
+  <link rel="stylesheet" href="Level_2.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script-SlideToggle.js"></script>
+
+</head>
+    <body>
+      <div class="section">
+
+  <div class="Level-2"><h2>Welcome to Level 2<h2></div>
+  <h2>From <span class="one">1</span> to <span class="5">5</span></h2>
+  <div class="content">
+    	<ul id="sliding-paragraph">
+    	<span class="slide-out">
+   <li><a href="Level2_1.html">Level 2-1</a></li>
+    <li><a href="Level2_2.html">Level 2-2</a></li>
+  </span>
+  <span class="slide-in">
+    <li><a href="Level2_3.html">Level 2-3</a></li>
+    <li><a href="Level2_4.html">Level 2-4</a></li>
+    <li><a href="Level2_5.html">Level 2-5</a></li>
+</span>
+    </ul>
+  </div>
+</div>
+<div class="HomeButton">
+  <button class="HomePage"><a href="https://danissa22.github.io/interactive-design/">HomePage</a></button>
+
+  <script>
+  $('.Level-2').click(function(){
+      // $(this).parents('.section').find('.content').slideToggle();
+         $(".content").slideToggle('slow');
+  });
+
+  </script>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

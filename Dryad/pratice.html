@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Popup dynamic options</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+<style>
+
+p.ui-bar.ui-bar-b { margin: 1em -15px; }
+.ui-bar-f { background: #fff; }
+
+</style>
+
+
+</head>
+
+<body>
+
+  <div data-role="content">
+    <p class="ui-bar ui-bar-b">
+      <a href="#pop1" data-rel="popup" id="btn1" data-inline="true">How to Help</a>
+    </p>
+  </div>
+
+  <div data-role="popup" id="pop1" data-position-to="window">
+      <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+      <div data-role="header" data-theme="b"><h1>How to Help</h1>
+<p>
+  Join the Rally to Help Protect
+  Dryad’s Rights and their Homes from Corportations
+</p>
+
+      </div>
+  </div>
+
+
+
+</body>
+</html>

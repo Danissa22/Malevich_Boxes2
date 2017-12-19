@@ -1,0 +1,33 @@
+div{
+    float:right;
+    padding:40px;
+}
+h1{
+    margin:13px;
+    display:flex;
+    font-family:fantasy;
+    font-size:50px;
+}
+h3{
+    width:140px;
+    font-weight:100px;
+    font-size:20px;
+}
+h4{
+    height:12px
+        padding:13px;
+    display:block;
+    
+}
+li{
+    padding:5px;
+    text-transform:lowercase;
+    line-height:13px;
+}
+p{
+    display:block;
+    padding:13px;
+    font-size:30px;
+    font-style:oblique;
+    
+}

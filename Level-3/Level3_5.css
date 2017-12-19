@@ -1,0 +1,25 @@
+div{
+    float:right;
+    padding:40px;
+}
+h1{
+    margin:13px;
+    display:flex;
+}
+h3{
+    width:140px
+}
+h4{
+    height:12px
+        padding:13px;
+    display:block;
+    
+}
+li{
+    padding:5px;
+}
+p{
+    display:block;
+    padding:13px;
+    
+}

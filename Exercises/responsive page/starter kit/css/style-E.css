@@ -1,0 +1,134 @@
+body{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+font-family: helvetica, arial sans-serif;
+font-style: bold uppercase;
+margin: 0px;
+padding: 10px;
+z-index: 99;
+background-color: gray;
+	font-size: 15vw; line-height: 99%;
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: block;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: block;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+}

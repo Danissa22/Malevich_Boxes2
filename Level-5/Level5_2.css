@@ -1,0 +1,27 @@
+body{
+  background-color:#181923;
+  color:white;
+}
+
+
+ul{
+    list-style:none;
+    color:white;
+}
+li{
+    font-style:italic;
+    font-family:fantasy;
+    color:white;
+}
+
+p{
+    font-family:sans-serif;
+    color:white;
+}
+div{
+  color:white;
+}
+
+button{
+  margin-top:5px;
+}

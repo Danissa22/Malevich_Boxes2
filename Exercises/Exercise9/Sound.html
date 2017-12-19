@@ -1,0 +1,28 @@
+<script>
+
+function suara1() {
+    var audio = document.getElementById('suara1');
+    audio.play();
+}
+function suara2() {
+    var audio = document.getElementById('suara2');
+    audio.play();
+}
+
+</script>
+<h3 style='font-family:arial, sans-serif;'>
+ SOUND FX on Click Button (ala KangRian.com)
+</h3>
+<button onclick='suara1()'>
+Tombol Suara 1
+</button>
+
+<a onclick='suara2()' href='#link'>
+Link Suara 2
+</a>
+
+<!-- SOUND FX Library Hidden -->
+<audio id='suara1' src='http://www.freesfx.co.uk/rx2/mp3s/3/3233_1329146192.mp3'></audio>
+
+<audio id='suara2' src='http://soundbible.com/mp3/Button_Press_4-Marianne_Gagnon-570460555.mp3'></audio>
+<!-- #SOUND FX -->

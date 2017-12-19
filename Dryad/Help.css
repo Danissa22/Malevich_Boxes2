@@ -1,0 +1,76 @@
+body{
+  background-color:#008373;
+}
+
+
+h1{
+  color:#8DC63F;
+  text-align:center;
+}
+ h2{
+   color:black;
+   font-weight:bold;
+ }
+
+
+.Home{
+
+  background-color: #89F283; /* Green */
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin-left:30px;
+
+}
+
+.hexagon-wrapper {
+
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+
+}
+
+
+.hexagon{
+  width: 1000px;
+  	height: 550px;
+  	background: #2BB673;
+  	position: relative;
+    text-align:justify;
+    border-style:solid;
+    border-color: #1A6665;
+    border-left-width: 20px;
+    border-right-width:20px;
+    border-top-width:20px;
+
+
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -250px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 500px solid transparent;
+	border-right: 500px solid transparent;
+	border-bottom: 250px solid #2BB673;
+  border-top-width:20px;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -250px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 500px solid transparent;
+	border-right: 500px solid transparent;
+	border-top: 250px solid #2BB673;
+}

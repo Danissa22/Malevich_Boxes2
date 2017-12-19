@@ -1,0 +1,54 @@
+body{
+  background-color:grey;
+  margin:0;
+}
+
+.Death{
+  border-bottom: 1px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.Death:hover{
+  background: #0292F0;
+}
+.content{
+  padding:20px;
+  display:none;
+  border-bottom:1px solid black;
+
+}
+.Place{
+  border-bottom: 1px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.Place:hover{
+  background: #0292F0;
+}
+
+.Heaven{
+  border-bottom: 1px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+.Heaven:hover{
+  background: #0292F0;
+}
+.Grave{
+  border-bottom: 1px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+.Grave:hover{
+  background: #0292F0;
+}
+.End{
+  border-bottom: 1px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+.End:hover{
+  background: #0292F0;
+}

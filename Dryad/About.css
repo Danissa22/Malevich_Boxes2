@@ -1,0 +1,112 @@
+body{
+ background-color:#008373;
+}
+
+.hexagon-wrapper {
+
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+
+}
+
+
+.hexagon{
+  width: 1000px;
+  	height: 550px;
+  	background: #2BB673;
+  	position: relative;
+    text-align:justify;
+    border-style:solid;
+    border-color: #1A6665;
+    border-left-width: 20px;
+    border-right-width:20px;
+    border-top-width:20px;
+
+
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -250px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 500px solid transparent;
+	border-right: 500px solid transparent;
+	border-bottom: 250px solid #2BB673;
+  border-top-width:20px;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -250px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 500px solid transparent;
+	border-right: 500px solid transparent;
+	border-top: 250px solid #2BB673;
+}
+.para{
+  margin-left:14px;
+  margin-right:14px;
+}
+p{
+  font-size:24px;
+  font-weight:100;
+  font-size-adjust:auto;
+  text-align:justify;
+  text-indent:inherit;
+}
+.Home{
+    background-color: #89F283; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+
+}
+.Next{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0BE500;
+  border: none;
+  color: #011E00;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.Next span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Next span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Next:hover span {
+  padding-right: 25px;
+}
+
+.Next:hover span:after {
+  opacity: 1;
+  right: 0;
+}

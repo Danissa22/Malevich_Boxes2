@@ -1,0 +1,28 @@
+body{
+    
+}
+p{
+    border-style: dashed;
+    width:14px;
+    height:14px;
+}
+h3{
+   margin:auto;
+    height:14px;
+    margin-left:15px;
+    
+}
+h4{
+    position:static;
+    padding:1.5px;
+    margin:12px;
+}
+strong{
+    margin-right:13px;
+    
+}
+em{
+   float:1px;
+    margin-left:1px;
+    margin-right:3px;
+}

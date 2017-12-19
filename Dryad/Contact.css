@@ -1,0 +1,54 @@
+body{
+ background-color:#008373;
+}
+
+
+h1{
+  color:#8DC63F;
+  text-align:left;
+}
+ h2{
+   color:black;
+   font-weight:bold;
+ }
+
+ul{
+  list-style:none;
+  margin-top: 50px;
+  padding-bottom:12px;
+
+}
+
+ li{
+   color:black;
+ }
+
+.Home{
+
+  background-color: #89F283; /* Green */
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     margin-top:30px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin-left:30px;
+
+}
+
+button{
+
+}
+
+
+.rect{
+  width: 500px;
+	height: 500px;
+	background: #2BB673;
+  border-style: solid;
+  border-color: #1A6665;
+  border-radius: 13px;
+  border-width: 20px;
+}

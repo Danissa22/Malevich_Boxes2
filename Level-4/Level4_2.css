@@ -1,0 +1,32 @@
+p{
+   text-align:center;
+    font-weight:100%;
+    line-height:14px;
+    text-transform:capitalize;
+}
+h1{
+    line-height:30px;
+    font-style:oblique;
+    letter-spacing:normal;
+    font-family:fantasy;
+    
+}
+h3{
+    font-family:fantasy;
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;
+}
+
+h4{
+    font-family:sans-serif;
+    font-style:italic;
+    font-size:14px;
+    letter-spacing:1.5px;
+}
+
+li{
+    font-size:15px;
+    line-height:inherit;
+    text-transform:capitalize;
+}

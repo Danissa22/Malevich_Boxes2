@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+
+<style>
+
+body{
+    background: #eeeeee;
+}
+#popup{
+    position: fixed;
+    background: rgba(0,0,0,.8);
+    display: none;
+    top: 20px;
+    left: 50px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+</style>
+
+
+<body>
+    <div id="popup">
+        <h1>Popup</h1>
+        <p>Dit is het bericht</p>
+        <a href="#" id="close_popup">Sluitpopup</a>
+    </div>
+    <a href="#popup" id="open_popup"></a>
+
+
+    <script>
+
+    $("#open_popup").click(function(){
+    $("#popup").css("display", "block");
+  });
+
+  $("#close_popup").click(function(){
+    $("#popup").css("display", "none");
+  });
+    </script>
+</body>

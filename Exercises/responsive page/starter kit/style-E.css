@@ -1,0 +1,347 @@
+body{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+font-family: helvetica, arial sans-serif;
+font-style: bold uppercase;
+margin: 0px;
+padding: 10px;
+z-index: 99;
+background-color: gray;
+	font-size: 5vw; line-height: 99%;
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+	body{
+	background-color: #423075;
+	text-decoration-color: #FFD700;
+	}
+
+
+	#one {
+		display: block;
+		color: #FFD700;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+body{
+	background-color:#363377;
+}
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: block;
+		color: #FFAB00;
+	}
+
+	#three {
+		display: block;
+		opacity:1
+		-webkit-transition-delay: 0.2s;
+		color:#FF8900;
+	}
+
+	#four {
+		display: block;
+		color:#FF6200;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: ;
+	}
+
+	#five {
+		display: block;
+		color:#FF3100;
+	}
+
+	#six {
+		display: block;
+		color:#F5002B;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+	body{
+	background-color: #2E4172;
+
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: block;
+		color:#ED004C;
+	}
+
+	#eight {
+		display: block;
+		color:#E3006F;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+	body{
+	background-color: gray;
+
+	}
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+	body{
+	background-color: black;
+
+	}
+
+
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: block;
+	}
+	#ten{
+		display: block;
+	}
+	#elven{
+		display: none;
+	}
+}
+@media screen and (max-width: 150px) {
+
+	body{
+	background-color: black;
+
+	}
+
+
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+	#seven {
+		display: none;
+	}
+
+	#eight {
+		display: none;
+	}
+
+	#nine {
+		display: none;
+	}
+	#ten{
+		display: none;
+	}
+	#elven{
+		display: none;
+	}
+}
